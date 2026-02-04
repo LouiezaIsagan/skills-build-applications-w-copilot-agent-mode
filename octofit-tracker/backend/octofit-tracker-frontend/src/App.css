@@ -1,0 +1,98 @@
+
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #e3f2fd 0%, #f8f9fa 100%);
+  min-height: 100vh;
+  color: #343a40;
+}
+
+.navbar {
+  margin-bottom: 2rem;
+  background: linear-gradient(90deg, #007bff 0%, #6610f2 100%);
+  color: #fff;
+}
+.navbar .navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar-brand img {
+  height: 32px;
+  margin-right: 10px;
+}
+.navbar .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.navbar .nav-link.active {
+  color: #ffc107 !important;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.table {
+  margin-top: 1rem;
+  background: #e9ecef;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  color: #212529;
+}
+.table thead {
+  background: linear-gradient(90deg, #007bff 0%, #6610f2 100%);
+  color: #fff;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f1f3f4;
+}
+
+.card {
+  margin: 1rem 0;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.modal-content {
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+.btn {
+  margin: 0.2rem;
+  background: linear-gradient(90deg, #007bff 0%, #6610f2 100%);
+  color: #fff;
+  border: none;
+  font-weight: 500;
+}
+.btn:hover {
+  background: linear-gradient(90deg, #6610f2 0%, #007bff 100%);
+  color: #ffc107;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid #007bff;
+}
+
+.heading {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #007bff;
+  text-shadow: 1px 1px 2px #e3f2fd;
+}
+
+a {
+  color: #6610f2;
+  text-decoration: none;
+}
+a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
